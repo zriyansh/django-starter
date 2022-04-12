@@ -17,6 +17,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('', include('calc.urls')), # include is a fucntion, we need to import it as well
+    path('', include('calc.urls')), # 'include' is a function, we need to import it as well, to setup our local routes from calc app to global server.
     path('admin/', admin.site.urls),
 ]
