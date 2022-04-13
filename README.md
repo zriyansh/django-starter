@@ -11,6 +11,11 @@ make a dir --> cd to it.
 ```
 sudo pip3 install virtualenvwrapper
 ```
+activate virtual environment
+```
+virtualenv py_env
+```
+
 
 ```
 pip3 install django
